@@ -6,6 +6,9 @@ The approach is inspired by this article: https://chatbotsmagazine.com/contextua
 First, install all the Modules
 pip install tensorflow, keras, pickle, nltk
 
+First, install all the Modules
+pip install tensorflow, keras, pickle, nltk
+
 file structure:
 Intents.json – The data file which has predefined patterns and responses.
 train_chatbot.py – In this Python file, we wrote a script to build the model and train our chatbot.
