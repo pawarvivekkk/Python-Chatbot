@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "Place",
+         "patterns": ["Location", "location", "address","add","Address", "Add", "place", "Place", "PLACE","p", "ad", "P"],
+         "responses": ["Rasayani"],
+         "context": [""]
+        },
+        {"tag": "Contact",
+         "patterns": ["Mobile", "Mobile Number", "Contact", "mobile", "phone no", "Phone No"],
+         "responses": ["\n02192-669000\n02192-669001\n02192-669002\n02192-669003"],
+         "context": [""]
+        },
+        {"tag": "Courses",
+         "patterns": ["Which courses are available ", "Courses", "course", "fields", "How many courses are there"],
+         "responses": ["\n1)Information Technology Engineering\n2)Computer Engineering\n3)Civil Engineering\n4)Automobile Engineering\n5)EXTC Engineering\n6)Mechanical Engineering\n"],
+         "context": [""]
+        },
+        {"tag": "Greeting",
+         "patterns": ["Hii", "hello", "HII", "HELLO", "hey", "HEY", "hi", "Hi", "heyyyyy", "Heyyyy", "heyy", "hiiiiii", "hi", "hola"],
+         "responses": ["Hello, I'm Pillai Hoc Bot, \nHow can I help you?"],
+         "context": [""]
+        },
+        {"tag": "Address",
+         "patterns": ["full address", "FULL ADDRESS", "FULL ADD", "full add", "LOcation", "LOCATION"],
+         "responses": ["Khalapur, HOC Colony Rd, Taluka, Rasayani, Maharashtra 410207"],
+         "context": [""]
+        },
+        {"tag": "Intake",
+         "patterns": ["Intake", "INTAKE", "intake", "total number of seat", "seat available", "no of seats", "seats", "1)Information Technology Engineering\n", "2)Computer Engineering\n", "3)Civil Engineering\n", "4)Automobile Engineering\n", "4)EXTC Engineering\n", "5)Mechanical Engineering\n" ],
+         "responses": ["\n 1)Information Technology Engineering: 80\n 2)Computer Engineering: 120\n 3)Civil Engineering: 60\n 4)Automobile Engineering: 60\n 4)EXTC Engineering: 60\n 5)Mechanical Engineering: 60\n"],
+         "context": [""]
+        },
+        {"tag": "Infprmation",
+         "patterns": ["College Information", "Clg Info", "clg info", "Information about collge", "info about clg" ],
+         "responses": ["\nPillai Hoc College of Engineering & Technology\nEstablished in 2009\nAffiliated to University of Mumbai\nApproved by All India Council for Technical Education (AICTE), New Delhi\nRecognized by Government of Maharashtra." ],
+         "context": [""]
+        },
+        {"tag": "Website",
+         "patterns": ["Websites", "Web", "WEB", "portal", "PORTAL", "Website"],
+         "responses": ["phcet.ac.in"],
+         "context": [""]
+        },
+        {"tag": "Email",
+         "patterns": ["email", "Email ID", "ID", "mail", "id", "email id", "EMAIL ID", "e-mail", "e-mail add", "Email address", "E-mail address"],
+         "responses": ["admission.phcet@mes.ac.in"],
+         "context": [""]
+        },
+        {"tag": "Help",
+         "patterns": ["help", "Need Help", " HELP", "i want help", "I WANT HELP", "PLEASE HELP", " please help" ],
+         "responses": ["\nHOW CAN I HELP YOU, Please Mention\n1)Address\n2)Seat availabality\n3)Contact details & Etc\nOr you can check our official\nWebsite:phcet.mes.ac.in"],
+         "context": [""]
+        },
+        {"tag": "Name",
+         "patterns": ["Clg Name", "College Name", "COLLEGE NAME", "Name of the clg", "name of college"],
+         "responses": ["Pillai Hoc College Of Engineering\n & Technology, Rasayani, Maharastra"],
+         "context": [""]
+        },
+        {"tag": "Principal",
+         "patterns": ["principal of the college", "Principal", "principal", "Principal Name", "name of the principal", "phcet principal", "PHCET Principal" ],
+         "responses": ["Dr. Mathew T. Joseph\n Contact:mathewjoseph@mes.ac.in"],
+         "context": [""]
+        },
+        {"tag": "Hostel",
+         "patterns": ["Hostel", "hostel", " Is there hostel available", "college have hostel facility"],
+         "responses": ["Yes, There is saparate Boys & Girls Hostel AVailable"],
+         "context": [""]
+        },
+        {"tag": "",
+         "patterns": ["","gsdvfkjdbs", "sgcdjhb", "shcbdhjs", "dfdec", "dsd", "xscfrg", "dcedws", "wuistwtdsabs", "ksowdiwdwksbvx", "skdhxsfdytsv", "qwert", "qwetgafsdczvxbnjmlvkpoiduudtswbswvsgvns", "bsjgjxfqpoueiydfvxsbxj"],
+         "responses": ["Sorry!!!\nI don't know this\nPlease visit (phcet.mes.ac.in)"],
+         "context": [""]
+        }
+   ]
+}
