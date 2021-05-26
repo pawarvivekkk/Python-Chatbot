@@ -34,7 +34,7 @@ ChatLog = Text(base, bd=2, bg="#D5F5E3", height="12", width="120", font="Arial",
 ChatLog.config(state=DISABLED)
 
 #Bind scrollbar to Chat window
-scrollbar = Scrollbar(base, command=ChatLog.yview, cursor="arrow")
+scrollbar = Scrollbar(base, command=ChatLog.yview, cursor="heart")
 ChatLog['yscrollcommand'] = scrollbar.set
 
 #Create Button to send message
