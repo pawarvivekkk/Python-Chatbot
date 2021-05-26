@@ -2,7 +2,7 @@
 
 The approach is inspired by this article: https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077.
 
-First, install all the Modules  
+First, install all the Modules:  
 (pip install tensorflow, keras, pickle, nltk) 
 
 # file structure:   
