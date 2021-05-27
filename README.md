@@ -13,13 +13,13 @@ Classes.pkl – The classes pickle file contains the list of categories.
 Chatbot_model.h5 – This is the trained model that contains information about the model and has weights of the neurons.   
 Chatgui.py – This is the Python script in which we implemented GUI for our chatbot. Users can easily interact with the bot.   
 
-# Usage
+# Usage:
 Run   
 python train_chatbot.py  
 This will train the Model. And then run  
 python chatapp.py  
 
-# Customize
+# Customize:
 You can customize it according to your own use case. Just define a new tag, possible patterns, and possible responses for the chat bot. You have to re-run the training whenever this file (Intents.json) is modified.
 
 
