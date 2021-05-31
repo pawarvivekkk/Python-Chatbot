@@ -1,6 +1,6 @@
 # Python Chatbot using NLTK & Keras
 
-The approach is inspired by this article: https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077.
+The approach is inspired by this article: chatbotsmagazine.com/contextual-chat-bots
 
 First, install all the Modules:  
 (pip install tensorflow, keras, pickle, nltk) 
