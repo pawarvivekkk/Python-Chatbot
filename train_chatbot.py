@@ -1,3 +1,5 @@
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
 import nltk
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
@@ -48,6 +50,9 @@ print (len(words), "unique lemmatized words", words)
 pickle.dump(words,open('words.pkl','wb'))
 pickle.dump(classes,open('classes.pkl','wb'))
 
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
+
 # create our training data
 training = []
 # create an empty array for our output
@@ -96,3 +101,5 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,
 model.save('chatbot_model.h5', hist)
 
 print("model created")
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
