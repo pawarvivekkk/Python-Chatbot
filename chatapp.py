@@ -1,3 +1,5 @@
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
 import nltk
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
@@ -124,3 +126,5 @@ EntryBox.place(x=120, y=401, height=50, width=256)
 SendButton.place(x=6, y=401, height=50)
 
 base.mainloop()
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
