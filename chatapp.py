@@ -69,6 +69,8 @@ def chatbot_response(msg):
     res = getResponse(ints, intents)
     return res
 
+# This Chat-Bot is developed by Vivek Pawar from Pillai Hoc College of Engineering and technology.
+# github.com/pawarvivekkk
 
 #Creating GUI with tkinter
 import tkinter
